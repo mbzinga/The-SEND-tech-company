@@ -136,7 +136,11 @@ export default function LegalDocumentPage({ params }: LegalDocumentPageProps) {
     try {
       const filePath = path.join(process.cwd(), 'content', 'legal', `${doc.slug}.md`);
       const fileContent = fs.readFileSync(filePath, 'utf8');
-      content = <ReactMarkdown className="prose prose-lg max-w-none">{fileContent}</ReactMarkdown>;
+      content = (
+        <div className="prose prose-lg max-w-none">
+          <ReactMarkdown>{fileContent}</ReactMarkdown>
+        </div>
+      );
     } catch (error) {
       // Fallback content if markdown file doesn't exist
       content = (

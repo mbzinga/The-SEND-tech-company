@@ -1,36 +1,141 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Send Tech Company Landing Website
 
-## Getting Started
+A sleek, minimalist landing website for The Send Tech Company built with Next.js 15, TypeScript, and Tailwind CSS.
 
-First, run the development server:
+## 🎯 Overview
+
+This website serves as the official organisational hub for all products owned by The Send Tech Company, showcasing our commitment to technology for inclusive education.
+
+### Products Featured
+- **SEN-AI**: AI powered curriculum and intervention platform for schools
+- **Lighthouse Consultancy**: Expert SEND consultancy and training
+- **Leif**: Parent-facing app for supporting children with additional needs
+
+## 🚀 Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm, yarn, pnpm, or bun
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone <repository-url>
+cd send-tech-company
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+3. Set up environment variables:
+```bash
+cp env.example .env.local
+```
+
+4. Add your Resend API key to `.env.local`:
+```bash
+RESEND_API_KEY=your_resend_api_key_here
+```
+
+### Development
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+├── app/                    # Next.js App Router pages
+│   ├── api/               # API routes
+│   ├── products/          # Product pages
+│   ├── legal/             # Legal document pages
+│   ├── about/             # About page
+│   ├── contact/           # Contact page
+│   └── layout.tsx         # Root layout
+├── components/            # Reusable React components
+├── data/                  # Static data files
+├── content/               # Markdown content
+└── public/               # Static assets
+```
 
-## Learn More
+## 🎨 Features
 
-To learn more about Next.js, take a look at the following resources:
+- **Responsive Design**: Mobile-first approach with Tailwind CSS
+- **SEO Optimized**: Meta tags, OpenGraph, and structured data
+- **Contact Form**: Working contact form with Resend email integration
+- **Legal Pages**: Comprehensive legal documentation
+- **Product Showcase**: Dynamic product pages with static generation
+- **Modern UI**: Clean, minimalist design with smooth animations
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🔧 Configuration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Email Integration
+The contact form uses [Resend](https://resend.com) for email delivery. To set up:
 
-## Deploy on Vercel
+1. Create a Resend account
+2. Get your API key
+3. Add it to your `.env.local` file
+4. Optionally configure a custom domain
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Customization
+- **Colors**: Modify the primary color palette in `tailwind.config.ts`
+- **Content**: Update product information in `data/products.js`
+- **Legal**: Edit legal documents in `content/legal/` or `app/legal/[document]/page.tsx`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📄 Pages
+
+- `/` - Landing page with hero, products, and mission
+- `/products` - Products overview page
+- `/products/[slug]` - Individual product detail pages
+- `/about` - Company information and story
+- `/contact` - Contact form and information
+- `/legal` - Legal documents index
+- `/legal/[document]` - Individual legal documents
+
+## 🚀 Deployment
+
+### Vercel (Recommended)
+1. Push your code to GitHub
+2. Connect your repository to Vercel
+3. Add environment variables in Vercel dashboard
+4. Deploy!
+
+### Other Platforms
+This is a standard Next.js application and can be deployed to any platform that supports Node.js:
+- Netlify
+- Railway
+- DigitalOcean App Platform
+- AWS Amplify
+
+## 📝 Environment Variables
+
+| Variable | Description | Required |
+|----------|-------------|----------|
+| `RESEND_API_KEY` | API key for email functionality | Yes |
+| `RESEND_DOMAIN` | Custom domain for Resend (optional) | No |
+
+## 🛠️ Tech Stack
+
+- **Framework**: Next.js 15 with App Router
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Email**: Resend
+- **Icons**: Heroicons (SVG)
+- **Fonts**: Inter (Google Fonts)
+- **Deployment**: Vercel (recommended)
+
+## 📞 Support
+
+For questions or support, please contact us through our [contact page](http://localhost:3000/contact) or email hello@sendtechcompany.com.
+
+## 📄 License
+
+© 2025 Send Tech Company. All rights reserved.

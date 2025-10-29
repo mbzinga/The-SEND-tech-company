@@ -38,17 +38,17 @@ export async function generateMetadata({ params }: ProductPageProps): Promise<Me
   }
 
   return {
-    title: `${product.name} - The Send Tech Company`,
+    title: `${product.name} - The SEND Tech Company`,
     description: metaDescription,
     keywords: keywords.length > 0 ? keywords : undefined,
     openGraph: {
-      title: `${product.name} - The Send Tech Company`,
+      title: `${product.name} - The SEND Tech Company`,
       description: product.tagline,
       type: 'website',
     },
     twitter: {
       card: 'summary_large_image',
-      title: `${product.name} - The Send Tech Company`,
+      title: `${product.name} - The SEND Tech Company`,
       description: product.tagline,
     },
   };
@@ -80,7 +80,7 @@ export default function ProductPage({ params }: ProductPageProps) {
     },
     "provider": {
       "@type": "Organization",
-      "name": "The Send Tech Company",
+      "name": "The SEND Tech Company",
       "url": "https://sendtechcompany.com"
     }
   } : {
@@ -90,7 +90,7 @@ export default function ProductPage({ params }: ProductPageProps) {
     "description": product.metaDescription || product.description,
     "provider": {
       "@type": "Organization",
-      "name": "The Send Tech Company",
+      "name": "The SEND Tech Company",
       "url": "https://sendtechcompany.com"
     },
     "areaServed": {

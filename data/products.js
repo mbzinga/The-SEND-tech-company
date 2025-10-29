@@ -1,5 +1,21 @@
 export const products = [
   {
+    name: "Leif",
+    slug: "leif",
+    tagline: "Empowering parents to support their child's needs.",
+    description: "Leif is a comprehensive mobile app designed specifically for parents and carers of children with additional needs. The app provides evidence-based assessments, personalised guidance, practical strategies, and ongoing support to help families navigate their child's learning journey with confidence and clarity.",
+    metaDescription: "Leif is a parent app that helps families understand their child's needs, access guidance, and find practical strategies for support. Empowering parents to make informed decisions and feel confident.",
+    website: null,
+    appStore: "https://apps.apple.com",
+    features: [
+      "Child assessment tools",
+      "Personalised guidance and strategies",
+      "Progress tracking",
+      "Expert resources and support"
+    ],
+    image: "/images/leif-placeholder.png"
+  },
+  {
     name: "SEN-AI",
     slug: "sen-ai",
     tagline: "AI powered curriculum and intervention platform for schools.",
@@ -30,21 +46,5 @@ export const products = [
       "Compliance and audit support"
     ],
     image: "/images/lighthouse-placeholder.png"
-  },
-  {
-    name: "Leif",
-    slug: "leif",
-    tagline: "Empowering parents to support their child's needs.",
-    description: "Leif is a comprehensive mobile app designed specifically for parents and carers of children with additional needs. The app provides evidence-based assessments, personalised guidance, practical strategies, and ongoing support to help families navigate their child's learning journey with confidence and clarity.",
-    metaDescription: "Leif is a parent app that helps families understand their child's needs, access guidance, and find practical strategies for support. Empowering parents to make informed decisions and feel confident.",
-    website: null,
-    appStore: "https://apps.apple.com",
-    features: [
-      "Child assessment tools",
-      "Personalised guidance and strategies",
-      "Progress tracking",
-      "Expert resources and support"
-    ],
-    image: "/images/leif-placeholder.png"
   }
 ];

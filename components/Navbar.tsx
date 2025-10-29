@@ -10,7 +10,7 @@ export const Navbar: React.FC = () => {
             <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-sm">ST</span>
             </div>
-            <span className="text-xl font-semibold text-gray-900">Send Tech</span>
+            <span className="text-xl font-semibold text-gray-900">The SEND Tech Company</span>
           </Link>
           
           <div className="hidden md:flex items-center space-x-8">

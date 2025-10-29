@@ -1,10 +1,10 @@
-# Send Tech Company Landing Website
+# The SEND Tech Company Landing Website
 
-A sleek, minimalist landing website for The Send Tech Company built with Next.js 15, TypeScript, and Tailwind CSS.
+A sleek, minimalist landing website for The SEND Tech Company built with Next.js 15, TypeScript, and Tailwind CSS.
 
 ## 🎯 Overview
 
-This website serves as the official organisational hub for all products owned by The Send Tech Company, showcasing our commitment to technology for inclusive education.
+This website serves as the official organisational hub for all products owned by The SEND Tech Company, showcasing our commitment to technology for inclusive education.
 
 ### Products Featured
 - **SEN-AI**: AI powered curriculum and intervention platform for schools
@@ -138,4 +138,4 @@ For questions or support, please contact us through our [contact page](http://lo
 
 ## 📄 License
 
-© 2025 Send Tech Company. All rights reserved.
+© 2025 The SEND Tech Company. All rights reserved.

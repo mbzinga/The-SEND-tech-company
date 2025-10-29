@@ -27,7 +27,7 @@ export async function generateMetadata({ params }: LegalDocumentPageProps): Prom
   }
 
   return {
-    title: `${doc.title} - Send Tech Company`,
+    title: `${doc.title} - The SEND Tech Company`,
     description: doc.description,
   };
 }
@@ -37,14 +37,14 @@ const GDPRContent = () => (
   <div className="prose prose-lg max-w-none">
     <h2>GDPR Compliance</h2>
     <p>
-      Send Tech Company is committed to protecting your privacy and ensuring compliance 
+      The SEND Tech Company is committed to protecting your privacy and ensuring compliance 
       with the General Data Protection Regulation (GDPR). This document outlines our 
       approach to data protection and your rights under GDPR.
     </p>
     
     <h3>Data Controller</h3>
     <p>
-      Send Tech Company acts as the data controller for personal data collected through 
+      The SEND Tech Company acts as the data controller for personal data collected through 
       our services. We are responsible for determining the purposes and means of processing 
       your personal data.
     </p>
@@ -78,7 +78,7 @@ const CookiePolicyContent = () => (
   <div className="prose prose-lg max-w-none">
     <h2>Cookie Policy</h2>
     <p>
-      This Cookie Policy explains how Send Tech Company uses cookies and similar 
+      This Cookie Policy explains how The SEND Tech Company uses cookies and similar 
       technologies when you visit our website.
     </p>
     

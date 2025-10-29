@@ -2,7 +2,7 @@ import { Metadata } from 'next';
 import { BentoProducts } from '@/components/BentoProducts';
 
 export const metadata: Metadata = {
-  title: 'Our Products - The Send Tech Company',
+  title: 'Our Products - The SEND Tech Company',
   description: 'Discover our suite of technology solutions for inclusive education: SEN-AI, Lighthouse Consultancy, and Leif.',
 };
 
@@ -19,7 +19,7 @@ export default function ProductsPage() {
             Our Products
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            The Send Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive.
+            The SEND Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive.
           </p>
         </div>
       </section>

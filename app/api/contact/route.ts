@@ -26,7 +26,7 @@ export async function POST(request: NextRequest) {
 
     // Send email using Resend
     const { data, error } = await resend.emails.send({
-      from: 'Send Tech Company <noreply@sendtechcompany.com>',
+      from: 'The SEND Tech Company <noreply@sendtechcompany.com>',
       to: ['hello@sendtechcompany.com'],
       subject: `Contact Form: ${subject}`,
       html: `
@@ -42,7 +42,7 @@ export async function POST(request: NextRequest) {
             <p style="line-height: 1.6; color: #4b5563;">${message.replace(/\n/g, '<br>')}</p>
           </div>
           <div style="margin-top: 20px; padding-top: 20px; border-top: 1px solid #e2e8f0; color: #6b7280; font-size: 14px;">
-            <p>This message was sent from the Send Tech Company contact form.</p>
+            <p>This message was sent from The SEND Tech Company contact form.</p>
             <p>Reply directly to this email to respond to ${name}.</p>
           </div>
         </div>

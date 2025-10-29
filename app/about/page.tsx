@@ -1,8 +1,8 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'About Us - The Send Tech Company',
-  description: 'Learn about The Send Tech Company\'s mission to provide technology solutions for inclusive education.',
+  title: 'About Us - The SEND Tech Company',
+  description: 'Learn about The SEND Tech Company\'s mission to provide technology solutions for inclusive education.',
 };
 
 export default function AboutPage() {
@@ -12,7 +12,7 @@ export default function AboutPage() {
       <section className="py-20 px-4 sm:px-6 lg:px-8">
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-6">
-            About The Send Tech Company
+            About The SEND Tech Company
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Pioneering technology solutions for inclusive education
@@ -126,7 +126,7 @@ export default function AboutPage() {
           </h2>
           <div className="bg-white p-8 rounded-xl shadow-sm border border-gray-100">
             <p className="text-lg text-gray-600 mb-6">
-              The Send Tech Company was founded with a simple yet powerful vision: to harness 
+              The SEND Tech Company was founded with a simple yet powerful vision: to harness 
               the potential of technology to create more inclusive educational experiences. 
               Our journey began when our founders recognised the challenges faced by educators 
               and families in supporting children with additional needs.
@@ -157,7 +157,7 @@ export default function AboutPage() {
               <div>
                 <h3 className="text-xl font-semibold text-gray-900 mb-4">Registered Details</h3>
                 <div className="space-y-2 text-gray-600">
-                  <p><strong>Company Name:</strong> The Send Tech Company Limited</p>
+                  <p><strong>Company Name:</strong> The SEND Tech Company Limited</p>
                   <p><strong>Registration Number:</strong> 16756429</p>
                   <p><strong>Registered Address:</strong><br />
                     167-169 Great Portland Street<br />

@@ -11,12 +11,12 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "The Send Tech Company – Technology for Inclusive Education",
-  description: "The Send Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive. Discover SEN-AI, Lighthouse Consultancy, and Leif.",
+  title: "The SEND Tech Company – Technology for Inclusive Education",
+  description: "The SEND Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive. Discover SEN-AI, Lighthouse Consultancy, and Leif.",
   keywords: ["education technology", "SEN", "SEND", "inclusive education", "curriculum", "intervention", "parent app", "consultancy", "SEN-AI", "Lighthouse Consultancy", "Leif", "SENCO", "special educational needs"],
-  authors: [{ name: "The Send Tech Company" }],
-  creator: "The Send Tech Company",
-  publisher: "The Send Tech Company",
+  authors: [{ name: "The SEND Tech Company" }],
+  creator: "The SEND Tech Company",
+  publisher: "The SEND Tech Company",
   robots: "index, follow",
   icons: {
     icon: "/favicon.svg",
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://sendtechcompany.com",
-    title: "The Send Tech Company – Technology for Inclusive Education",
-    description: "The Send Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive.",
-    siteName: "The Send Tech Company",
+    title: "The SEND Tech Company – Technology for Inclusive Education",
+    description: "The SEND Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive.",
+    siteName: "The SEND Tech Company",
   },
   twitter: {
     card: "summary_large_image",
-    title: "The Send Tech Company – Technology for Inclusive Education",
-    description: "The Send Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive.",
+    title: "The SEND Tech Company – Technology for Inclusive Education",
+    description: "The SEND Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive.",
   },
 };
 

@@ -21,7 +21,7 @@ export default function Home() {
   const organizationSchema = {
     "@context": "https://schema.org",
     "@type": "Organization",
-    "name": "The Send Tech Company",
+    "name": "The SEND Tech Company",
     "description": "Technology for Inclusive Education",
     "url": "https://sendtechcompany.com",
     "logo": "https://sendtechcompany.com/favicon.svg",
@@ -57,14 +57,14 @@ export default function Home() {
         <nav aria-label="Global" className="flex items-center justify-between p-6 lg:px-8">
           <div className="flex lg:flex-1">
             <Link href="/" className="-m-1.5 p-1.5">
-              <span className="sr-only">The Send Tech Company</span>
+              <span className="sr-only">The SEND Tech Company</span>
               <img
-                alt="The Send Tech Company"
+                alt="The SEND Tech Company"
                 src="/favicon.svg"
                 className="h-8 w-auto dark:hidden"
               />
               <img
-                alt="The Send Tech Company"
+                alt="The SEND Tech Company"
                 src="/favicon.svg"
                 className="h-8 w-auto not-dark:hidden"
               />
@@ -98,14 +98,14 @@ export default function Home() {
           <DialogPanel className="fixed inset-y-0 right-0 z-50 w-full overflow-y-auto bg-white p-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10 dark:bg-gray-900 dark:sm:ring-gray-100/10">
             <div className="flex items-center justify-between">
               <Link href="/" className="-m-1.5 p-1.5">
-                <span className="sr-only">The Send Tech Company</span>
+                <span className="sr-only">The SEND Tech Company</span>
                 <img
-                  alt="The Send Tech Company"
+                  alt="The SEND Tech Company"
                   src="/favicon.svg"
                   className="h-8 w-auto dark:hidden"
                 />
                 <img
-                  alt="The Send Tech Company"
+                  alt="The SEND Tech Company"
                   src="/favicon.svg"
                   className="h-8 w-auto not-dark:hidden"
                 />
@@ -176,7 +176,7 @@ export default function Home() {
               Technology for Inclusive Education
             </h1>
             <p className="mt-8 text-lg font-medium text-pretty text-gray-500 sm:text-xl/8 dark:text-gray-400">
-              The Send Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive.
+              The SEND Tech Company builds powerful, accessible tools that help schools, families, and professionals support every child to thrive.
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <Button href="/products" size="lg">

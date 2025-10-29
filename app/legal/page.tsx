@@ -3,7 +3,7 @@ import Link from 'next/link';
 import { legalDocuments } from '@/data/legal';
 
 export const metadata: Metadata = {
-  title: 'Legal Documents - Send Tech Company',
+  title: 'Legal Documents - The SEND Tech Company',
   description: 'Access our legal documents including Terms & Conditions, Privacy Policy, GDPR compliance, and Cookie Policy.',
 };
 

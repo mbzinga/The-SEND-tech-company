@@ -11,13 +11,13 @@ export const Footer: React.FC = () => {
               <div className="w-8 h-8 bg-primary-600 rounded-lg flex items-center justify-center">
                 <span className="text-white font-bold text-sm">ST</span>
               </div>
-              <span className="text-xl font-semibold text-gray-900">Send Tech Company</span>
+              <span className="text-xl font-semibold text-gray-900">The SEND Tech Company</span>
             </div>
             <p className="text-gray-600 text-sm mb-4">
               Technology for Inclusive Education.
             </p>
             <p className="text-gray-500 text-xs mb-2">
-              © 2025 Send Tech Company. All rights reserved.
+              © 2025 The SEND Tech Company. All rights reserved.
             </p>
             <p className="text-gray-500 text-xs">
               Company Number: 16756429 | 167-169 Great Portland Street, 5th Floor, London W1W 5PF
